@@ -24,7 +24,7 @@ function Card({projectImage , projectTitle , description , link,techstack}) {
       </p>
     </div>
     <div className="p-6 pt-0">  
-      <Button text='Live Link' className='bg-blue-500' link={link} />
+      <Button text='Live Link' className='bg-blue-500 text-white' link={link} />
     </div>
   </div>
     )
