@@ -21,7 +21,7 @@ function App() {
           <h1 className="text-center text-3xl font-bold ">{"<Skills/>"}</h1>
           <Skill />
           <h1 className="text-center text-3xl font-bold ">{"<Projects/>"}</h1>
-          <Projects/>
+          <Projects />
         </motion.div>
       </div>
     </>
