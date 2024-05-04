@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from './Reusable/Button'
 
-function Card({projectImage , projectTitle , description , link,techstack}) {
+function Card({projectImage , projectTitle , description , link,techstack,text}) {
     return (
       <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl" >
     <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white bg-clip-border rounded-xl h-40 lg:h-72">
@@ -24,7 +24,7 @@ function Card({projectImage , projectTitle , description , link,techstack}) {
       </p>
     </div>
     <div className="p-6 pt-0">  
-      <Button text='Live Link' className='bg-blue-500 text-white' link={link} />
+      <Button text={`${text || 'Live Link'}`} className='bg-blue-500 text-white' link={link} />
     </div>
   </div>
     )
