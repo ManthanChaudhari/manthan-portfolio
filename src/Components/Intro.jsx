@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./Reusable/Button";
 import Lottie from "lottie-react";
 import heroImage from "../assets/Animation - 1713962820483.json";
-import Resume from '../assets/Resume.pdf'
+import Resume from '../assets/Resume (2).pdf'
 
 function Intro() {
   return (
