@@ -3,7 +3,7 @@ import Button from './Reusable/Button'
 
 function Card({projectImage , projectTitle , description , link,techstack,text}) {
     return (
-      <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl" >
+      <div className="relative flex flex-col ring-2 ring-gray-100 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl" >
     <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white bg-clip-border rounded-xl h-40 lg:h-72">
       <img
         src={projectImage}

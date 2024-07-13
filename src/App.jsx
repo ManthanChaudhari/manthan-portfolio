@@ -9,7 +9,7 @@ import Projects from "./Components/Projects";
 function App() {
   return (
     <>
-      <div>
+      <div >
         <Header />
         <motion.div
           className="px-5 py-5 flex flex-col gap-y-10"
